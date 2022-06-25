@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/e/Ders/CSE102/HW9'
+clear
+ 
+rm -f *.o
+rm -f *.out
+rm -f *.save
+gcc -o ex.out main.c -lm
+./ex.out
+make: Leaving directory '/mnt/e/Ders/CSE102/HW9'
+ 
